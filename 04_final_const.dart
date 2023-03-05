@@ -3,6 +3,8 @@ void main(){
   final name = 'GDSC';
   const year = 2023;
 
+  print("$name $year");
+
   /* 
    * difference between final and const keywords.
    * 
