@@ -3,7 +3,7 @@ class Animals{
   String? color;
 
   void eat(){
-    
+    print("Eating....");
   }
 }
 
@@ -11,7 +11,7 @@ class Animals{
 class dog extends Animals{
   String? breed;
   void bark(){
-
+    print("bow bow");
   }
 }
 
@@ -19,8 +19,17 @@ class dog extends Animals{
 class cat extends Animals{
   int? age;
   void meow(){
-
+    print("meow meow");
   }
+}
+
+void main(){
+  dog d1 = dog();
+  d1.color = "red";
+  d1.breed = "Dobber man";
+  print("${d1.color} and ${d1.breed}");
+  d1.eat();
+  d1.bark();
 }
 
 // Types of inheritances in dart
