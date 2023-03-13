@@ -53,8 +53,8 @@ void main(){
   print('');
   demoPositional('IITH', "Kandi");
 
-  demoNamed("Vibhav");
-  demoNamed("Vibhav",name2: "Bhanu",name3: "Kartheek");
+  demoNamed("Vaibhav");
+  demoNamed("Vaibhav",name2: "Bhanu",name3: "Kartheek");
   
 }
 
